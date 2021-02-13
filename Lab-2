@@ -1,0 +1,14 @@
+package com.company;
+
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+    Scanner scanner = new
+            Scanner(System.in);
+    long a = (long) scanner.nextDouble();
+    long z = (((1 + a + a  a)  (2  a + a  a)) + 2 - ((1 - a + a  a)  (2  a - a  a)))  (5 - 2  (a  a));
+    System.out.println(z);
+    }
+
+}
